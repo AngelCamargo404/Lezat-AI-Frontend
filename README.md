@@ -1,16 +1,45 @@
-# React + Vite
+# Lezat AI - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es el frontend de la aplicación Lezat AI, desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## Requisitos Previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu sistema.
 
-## React Compiler
+## Configuración e Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sigue estos pasos para inicializar el proyecto en tu entorno local:
 
-## Expanding the ESLint configuration
+1.  **Clonar el repositorio** (si aún no lo has hecho) y navegar a la carpeta del frontend:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    ```bash
+    cd Lezat-AI-Frontend
+    ```
+
+2.  **Instalar dependencias**:
+
+    Ejecuta el siguiente comando para instalar todas las librerías necesarias listadas en `package.json`:
+
+    ```bash
+    npm install
+    ```
+
+## Ejecución del Proyecto
+
+Para iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible usualmente en `http://localhost:5173/` (o el puerto que te indique la terminal).
+
+## Construcción para Producción
+
+Para generar los archivos estáticos optimizados para producción:
+
+```bash
+npm run build
+```
+
+Los archivos generados se encontrarán en la carpeta `dist`.
